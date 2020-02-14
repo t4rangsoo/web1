@@ -33,6 +33,7 @@
 		 if (empty($_GET['id']) == false) {
 				echo file_get_contents($_GET['id'].".txt");
 		 }
+			echo "당신의 방문을 환영합니다.";
 	  ?>
 	</article>
 
